@@ -1,0 +1,94 @@
+<% include partials/header%>
+  <body class= "contact2 myfont">
+<div class="container  " >
+     <div class="col-sm-10"></div><div class="col-sm-2 regularmargin"> <h3><a  onclick="goBack()"> Go Back</a></h3>  </div>
+    <br></br>
+<div class=col-sm-12>
+    <h1>CONTACT US</h1>
+    
+</div>
+<div class=col-sm-4>
+    
+</div>
+<div class="col-sm-4 centermode  regularmargin">
+    <img src="/images/contactus.jpg" class="centermode thumbnail">
+</div>
+<div class=col-sm-3>
+    
+</div>
+
+<div class="col-sm-8 ">
+    
+    <h3> " We are friendly and available to communicate via phone or webmail below. Get in touch with us anytime 
+    and we will happilly respond to your inquires. Thank you. "</h3>
+    
+    
+   
+        <form method=POST action="/contact" class="bigmargin col-xs-12">
+           
+                <div class=col-xs-12>
+                    
+                    <input type="text" class="col-xs-6 regularmargin contact" name= contact[name] value=Name  required > 
+                </div>
+                
+                 <div class=col-xs-12>
+                     <input type="email" class="col-xs-6 regularmargin contact" name= contact[email] value="Email Address"  required> 
+                 </div>
+                 
+                 <div class=col-xs-12>
+                    <input type="text" class="col-xs-6 regularmargin contact" name= contact[subject] value="Subject" required> 
+            
+                </div>
+                 <div class=col-xs-12>
+                   <textarea class="col-xs-11 regularmargin contact"name=contact[message]  cols=80 rows=6 required>Message</textarea>
+					 
+                </div>
+                 <div class=col-xs-12>
+                    <input name="submit" type="submit" value="Send" class="col-xs-3 regularmargin btn btn-large btn-info">
+									 
+                </div>
+                   
+            
+                        </form>
+        
+   
+</div>
+
+<div class="col-sm-4 ">
+    
+    <div class="col-xs-12 bottombigmargin ">
+        <div class=col-sm-12>
+        <h1>OUR LOCATION</h1>
+        </div>
+        <div clas=col-xs-12>
+        <div class=col-xs-8><h4>South Shore Drive Chicago</h4></div>
+  
+        <div class=col-xs-6><h4>IL 60649 USA.</h4></div>
+        </div>
+        
+    </div>
+    
+    
+    
+     <div class=col-xs-12>
+         <div class=col-xs-12>
+        <h1>OPEN HOURS</h1>
+        </div>
+        <div class=col-xs-12>
+            <div class=col-xs-6> <h4>Mon - Sat</h4>  </div>
+           <div class=col-xs-6><h4>8 am - 6 pm</h4></div>
+           <div class=col-xs-6> <h4>Sunday </h4>  </div>
+           <div class=col-xs-6><h4>Closed</h4></div>
+           <div class=col-xs-6> <h4>Holidays</h4>  </div>
+           <div class=col-xs-6><h4>Closed</h4></div>
+   
+      </div>
+    
+</div>
+
+
+
+</div>
+</div>
+
+<% include partials/footer%>

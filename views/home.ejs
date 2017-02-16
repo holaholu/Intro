@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yomify: Experience world class web development</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/styles/landing.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript" async></script>
+    </head>
+    <body>
+        <img src='/images/holufybg.jpg' style='position:fixed;top:0px;left:0px;width:220%;height:auto;z-index:-1;'> <!--Contains background image-->
+
+    <div class="container">
+        <% if(error && error.length > 0){ %>
+            <div class="alert alert-danger" role="alert">
+                <%= error %>
+            </div>
+        <% } %>
+        <% if(success && success.length > 0){ %>
+            <div class="alert alert-success" role="alert">
+                <%= success %>
+            </div>
+        <% } %>
+    </div>
+     
+     <div id=holufylogo>
+      <a href= "/index"  ><img src="/images/YOMIFYLOGO.png" ></a>
+    </div>
+    <div id="landing-header">
+        <h1>Experience World Class Web Development.</h1>
+        <a href="/index" class="btn btn-lg btn-success">Get started</a>
+    </div>
+
+    <ul class="slideshow">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    
+    
+    
+    
+
+</body>
+</head>
+</html>
